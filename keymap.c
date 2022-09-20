@@ -24,11 +24,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //-----------------------------------------------------------------------------------------------------------------------
 	KC_QUOTE, KC_1, KC_2, KC_3, KC_4, KC_5,        KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINUS, 
 //-----------------------------------------------------------------------------------------------------------------------
-	KC_DEL, KC_SLASH, KC_COMMA, KC_DOT, KC_P, KC_Y,        KC_F, KC_G, KC_C, KC_R, KC_L, KC_QUOTE, 
+	KC_DEL, KC_SLASH, KC_COMMA, KC_DOT, KC_P, KC_Y,        KC_F, KC_G, KC_C, KC_R, KC_L, KC_GRAVE, 
 //-----------------------------------------------------------------------------------------------------------------------
 	KC_TAB, KC_A, KC_O, KC_E, KC_U, KC_I,         KC_D, KC_H, KC_T, KC_N, KC_S, KC_CIRCUMFLEX, 
 //-----------------------------------------------------------------------------------------------------------------------
-	OSM(MOD_LSFT), KC_NUBS, KC_Q, KC_J, KC_K, KC_X, KC_PGDOWN, KC_PGUP, KC_B, KC_M, KC_W, KC_V, KC_Z, KC_GRAVE, 
+	OSM(MOD_LSFT), KC_NUBS, KC_Q, KC_J, KC_K, KC_X, KC_PGDOWN, KC_PGUP, KC_B, KC_M, KC_W, KC_V, KC_Z, OSM(MOD_RSFT), 
 //-----------------------------------------------------------------------------------------------------------------------
 	MT(MOD_LCTL, KC_ESCAPE), OSM(MOD_RCTL), TO(1), MT(MOD_LGUI, KC_SPACE),        RALT_T(KC_ENTER), TO(2), OSM(MOD_LALT), KC_BSPC 
   ),
