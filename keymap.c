@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //-----------------------------------------------------------------------------------------------------------------------
  	OSM(MOD_LSFT), KC_A, KC_O, KC_E, KC_U, KC_I,         KC_D, KC_H, KC_T, KC_N, KC_S, OSM(MOD_LALT), 
 //-----------------------------------------------------------------------------------------------------------------------
-	OSM(MOD_RCTL), KC_NUBS, KC_Q, KC_J, KC_K, KC_X, KC_PGDOWN, KC_PGUP, KC_B, KC_M, KC_W, KC_V, KC_Z, OSM(MOD_RSFT), 
+	OSM(MOD_RCTL), KC_SEMICOLON, KC_Q, KC_J, KC_K, KC_X, KC_PGDOWN, KC_PGUP, KC_B, KC_M, KC_W, KC_V, KC_Z, OSM(MOD_RSFT), 
 //-----------------------------------------------------------------------------------------------------------------------
 	MT(MOD_LCTL, KC_ESCAPE), OSM(MOD_RCTL), TO(1), MT(MOD_LGUI, KC_SPACE),        RALT_T(KC_ENTER), TO(2), OSM(MOD_LALT), KC_BSPC 
   ),
@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //-----------------------------------------------------------------------------------------------------------------------
 	KC_TAB, KC_1, KC_2, KC_3, KC_4, KC_5,        KC_6, KC_7, KC_8, KC_9, KC_0, KC_EQUAL, 
 //-----------------------------------------------------------------------------------------------------------------------
-	OSM(MOD_LSFT), KC_GRAVE, KC_TILD, KC_CIRCUMFLEX, KC_QUOTE, KC_MINUS,        KC_PGDOWN, KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, KC_PGUP, 
+	OSM(MOD_LSFT), KC_QUOTE, KC_GRAVE, KC_TILD, KC_CIRCUMFLEX, KC_MINUS,        KC_PGDOWN, KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, KC_PGUP, 
 //-----------------------------------------------------------------------------------------------------------------------
 	OSM(MOD_RCTL),  KC_NUBS, KC_LBRC, KC_RBRC, KC_LPRN, KC_RPRN, KC_PGDOWN, KC_PGUP, KC_SEMICOLON, KC_DOT, KC_COMMA, KC_QUES, KC_EXLM, KC_CAPS, 
 //-----------------------------------------------------------------------------------------------------------------------
