@@ -24,26 +24,26 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //-----------------------------------------------------------------------------------------------------------------------
 	KC_QUOTE, KC_1, KC_2, KC_3, KC_4, KC_5,        KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINUS, 
 //-----------------------------------------------------------------------------------------------------------------------
-	KC_TAB, KC_SLASH, KC_COMMA, KC_DOT, KC_P, KC_Y,        KC_F, KC_G, KC_C, KC_R, KC_L, KC_DEL, 
+	KC_ESC, KC_SLASH, KC_COMMA, KC_DOT, KC_P, KC_Y,        KC_F, KC_G, KC_C, KC_R, KC_L, KC_DEL, 
 //-----------------------------------------------------------------------------------------------------------------------
- 	OSM(MOD_LSFT), KC_A, KC_O, KC_E, KC_U, KC_I,         KC_D, KC_H, KC_T, KC_N, KC_S, OSM(MOD_LALT), 
+ 	KC_TAB, KC_A, KC_O, KC_E, KC_U, KC_I,         KC_D, KC_H, KC_T, KC_N, KC_S, OSM(MOD_LALT), 
 //-----------------------------------------------------------------------------------------------------------------------
-	OSM(MOD_RCTL), KC_SEMICOLON, KC_Q, KC_J, KC_K, KC_X, KC_PGDOWN, KC_PGUP, KC_B, KC_M, KC_W, KC_V, KC_Z, OSM(MOD_RSFT), 
+	OSM(MOD_LGUI), KC_SEMICOLON, KC_Q, KC_J, KC_K, KC_X, KC_PGDOWN, KC_PGUP, KC_B, KC_M, KC_W, KC_V, KC_Z, OSM(MOD_RCTL), 
 //-----------------------------------------------------------------------------------------------------------------------
-	MT(MOD_LCTL, KC_ESCAPE), OSM(MOD_RCTL), TO(1), MT(MOD_LGUI, KC_SPACE),        RALT_T(KC_ENTER), TO(2), OSM(MOD_LALT), KC_BSPC 
+	MT(MOD_LCTL, KC_ESCAPE), OSM(MOD_RCTL), TO(1), MT(MOD_LSFT, KC_SPACE),        RALT_T(KC_ENTER), TO(2), OSM(MOD_RSFT), KC_BSPC 
   ),
 
   [1] = LAYOUT(
 //-----------------------------------------------------------------------------------------------------------------------
 	KC_QUOTE, KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC,        KC_DQUO, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_MINUS, 
 //-----------------------------------------------------------------------------------------------------------------------
-	KC_TAB, KC_1, KC_2, KC_3, KC_4, KC_5,        KC_6, KC_7, KC_8, KC_9, KC_0, KC_EQUAL, 
+	KC_ESC, KC_1, KC_2, KC_3, KC_4, KC_5,        KC_6, KC_7, KC_8, KC_9, KC_0, KC_EQUAL, 
 //-----------------------------------------------------------------------------------------------------------------------
-	OSM(MOD_LSFT), KC_QUOTE, KC_GRAVE, KC_CIRCUMFLEX, KC_TILD, KC_MINUS,        KC_PGDOWN, KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, KC_PGUP, 
+	KC_TAB, KC_QUOTE, KC_GRAVE, KC_CIRCUMFLEX, KC_TILD, KC_MINUS,        KC_PGDOWN, KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, KC_PGUP, 
 //-----------------------------------------------------------------------------------------------------------------------
-	OSM(MOD_RCTL),  KC_NUBS, KC_LBRC, KC_RBRC, KC_LPRN, KC_RPRN, KC_PGDOWN, KC_PGUP, KC_SEMICOLON, KC_DOT, KC_COMMA, KC_QUES, KC_EXLM, KC_CAPS, 
+	OSM(MOD_LGUI),  KC_NUBS, KC_LBRC, KC_RBRC, KC_LPRN, KC_RPRN, KC_PGDOWN, KC_PGUP, KC_SEMICOLON, KC_DOT, KC_COMMA, KC_QUES, KC_EXLM, KC_CAPS, 
 //-----------------------------------------------------------------------------------------------------------------------
-	MT(MOD_LCTL, KC_ESCAPE), OSM(MOD_RCTL), TO(0),  MT(MOD_LGUI, KC_SPACE),     RALT_T(KC_ENTER), TO(2), OSM(MOD_LALT),  KC_BSPC 
+	MT(MOD_LCTL, KC_ESCAPE), OSM(MOD_RCTL), TO(0),  MT(MOD_LSFT, KC_SPACE),     RALT_T(KC_ENTER), TO(2), OSM(MOD_RSFT),  KC_BSPC 
   ),
 
   [2] = LAYOUT(
@@ -56,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //-----------------------------------------------------------------------------------------------------------------------
 	KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_PGDOWN, KC_PGUP, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, 
 //-----------------------------------------------------------------------------------------------------------------------
-	MT(MOD_LCTL, KC_ESCAPE), OSM(MOD_RCTL), TO(1), MT(MOD_LGUI, KC_SPACE),        RALT_T(KC_ENTER), TO(0), OSM(MOD_RALT),  KC_BSPC 
+	MT(MOD_LCTL, KC_ESCAPE), OSM(MOD_RCTL), TO(1), MT(MOD_LSFT, KC_SPACE),        RALT_T(KC_ENTER), TO(0), OSM(MOD_RSFT),  KC_BSPC 
   )
 };
 
